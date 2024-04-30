@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body{
+padding:0px;
+margin: 0px;
+}
+
+#table-students{
+    width: 100%;
+    background-color: #852424;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+
+    margin-bottom: 20px;
+}
+
+
+th{
+ 
+    background-color: #852424;
+    color: white;
+   
+}
+
+tr{
+    background-color: #852424;
+    color: white;
+ 
+}
+
+td{
+    background-color: #e2e0e0;
+    color: black;
+    border: 1px solid black;
+
+}
+
+
+.nav{
+    height: 50px;
+    
+    background-color: #b8b8b8;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav h1{
+    justify-content: center;
+    align-items: center;
+ 
+    font-family:  'Poppins' ;
+    font-size: 1;
+}
+
+
+.cadastrar{
+align-items: end;
+margin-left: 500px;
+justify-content: right;
+}
+
+#button-cadastrar{
+    
+   
+    border: 1px solid black;
+    border-radius: 5px;
+
+    margin-bottom: 5px;
+    background-color: rgb(129, 34, 10);
+    font-family:  'Poppins' ;
+}
+
+#button-cadastrar:hover{
+    background-color: rgb(150, 34, 34);
+    color: white;
+}
+
+
+#form-button{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: #81220a;
+    font-family:  'Poppins' ;
+}
+
+#form-button:hover{
+    background-color: rgb(150, 34, 34);
+   
+}
+
+#cadastro{
+    color:  #81220a;
+    font-family:  'Poppins' ;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.fundo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+#form-modal{
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 20px;
+   
+    
+}
+
+#container-modal{
+    display: none;
+    
+}
+
+.form-title{
+    display: flex;
+    justify-content: center;
+  text-align: center;
+}
+
